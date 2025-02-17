@@ -16,15 +16,22 @@ public class Main {
         cabra1.setIdade(8);
         cabra1.setNumeroIdentificacao("1234");
         cabraDAO.salvar(cabra1);*/
+
         // Deletar uma cabra
-        cabraDAO.deletar(2L);
-        /* Listar todas as cabras
+        cabraDAO.deletar(8L);
+        //Listar todas as cabras
+
+
+        /*listar cabras
         List<Cabra> cabras = cabraDAO.listarTodas();
         cabras.forEach(c -> System.out.println("ID: " + c.getId() + ", Raça: " + c.getRaca()));
+*/
 
+        /*
         // Atualizar uma cabra
-        Cabra cabraAtualizada = cabraDAO.buscarPorId(cabra1.getId());
+        Cabra cabraAtualizada = cabraDAO.buscarPorId(8L);
         cabraAtualizada.setIdade(4);
+        cabraAtualizada.setRaca("Saanen");
         cabraDAO.atualizar(cabraAtualizada);
 
         */
